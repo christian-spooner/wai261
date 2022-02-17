@@ -54,7 +54,7 @@ app.post("/addMessage", (req, res) => {
       },
       {
         headers: {
-          Authorization: "Bearer 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",
+          Authorization: "Bearer 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",
         },
       }
     )
