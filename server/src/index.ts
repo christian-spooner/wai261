@@ -14,7 +14,7 @@ const port = 5000;
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: ["http://localhost:3000", "https://wai261-buhae97cu-christian-spooner.vercel.app"],
   })
 );
 app.use(bodyParser.json());
